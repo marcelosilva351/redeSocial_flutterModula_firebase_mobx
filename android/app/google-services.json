@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085483662715",
+    "project_id": "rede-social-f1e9f",
+    "storage_bucket": "rede-social-f1e9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085483662715:android:7fb4d050e0ce4e61e311de",
+        "android_client_info": {
+          "package_name": "com.example.rede_social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085483662715-sep4qqlogkhc5g9rfhsj39m2nj5h4fu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr55D07UevwrTF-p23pp4m-HDR7_NnEKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085483662715-sep4qqlogkhc5g9rfhsj39m2nj5h4fu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

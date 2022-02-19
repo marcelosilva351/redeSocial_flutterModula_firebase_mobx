@@ -1,0 +1,41 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'auth_store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+
+mixin _$AuthStore on _AuthStoreBase, Store {
+  final _$stringResultLogarAtom =
+      Atom(name: '_AuthStoreBase.stringResultLogar');
+
+  @override
+  String get stringResultLogar {
+    _$stringResultLogarAtom.reportRead();
+    return super.stringResultLogar;
+  }
+
+  @override
+  set stringResultLogar(String value) {
+    _$stringResultLogarAtom.reportWrite(value, super.stringResultLogar, () {
+      super.stringResultLogar = value;
+    });
+  }
+
+  final _$resultLoginAsyncAction = AsyncAction('_AuthStoreBase.resultLogin');
+
+  @override
+  Future resultLogin() {
+    return _$resultLoginAsyncAction.run(() => super.resultLogin());
+  }
+
+  @override
+  String toString() {
+    return '''
+stringResultLogar: ${stringResultLogar}
+    ''';
+  }
+}
